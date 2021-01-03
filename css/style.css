@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.algos button:hover {
+  background-color: salmon;
+  cursor: pointer;
+}
+
+.algos .butt_selected {
+  color: green;
+}
+
+.algos .butt_selected:hover {
+  cursor: pointer;
+}
+
+#array_generator:hover {
+  background-color: salmon;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

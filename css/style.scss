@@ -1,0 +1,33 @@
+$primaryColor: blue;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+$no_algos: 6;
+
+.algos {
+  button {
+    &:hover {
+      background-color: salmon;
+      cursor: pointer;
+    }
+  }
+
+  .butt_selected {
+    color: green;
+    &:hover {
+      // background-color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+#array_generator {
+  &:hover {
+    background-color: salmon;
+    cursor: pointer;
+  }
+}
