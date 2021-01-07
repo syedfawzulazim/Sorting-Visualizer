@@ -41,9 +41,9 @@ function Selections(){
         div_update(divs[k],divSize[k],"DarkOrange");
         }
         
-        div_update(divs[i],divSize[i],"green");
+        div_update(divs[i],divSize[i],"CornflowerBlue");
         
     }
-    div_update(divs[i],divSize[i],"green");
+    div_update(divs[i],divSize[i],"CornflowerBlue");
 
 }
