@@ -26,7 +26,7 @@ var c_delay = 0;
 function div_update(cont,height,color)
 {
     window.setTimeout(function(){
-        cont.innerHTML = '<p class="small" style=" ;">'+ height +'</p>';
+        cont.innerHTML = '<p class="small">'+ height +'</p>';
         cont.style = "font-size:"+900/arraySize+"px; color:white; width: " + (100/arraySize-(2*marginSize)) + "%; height:" + height + "%; background-color:" + color + ";";
     },c_delay+=delay_time);
 }

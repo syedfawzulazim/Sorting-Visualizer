@@ -3,7 +3,6 @@
 function btnfunction(){
 
     var arrayGenerator = document.getElementById('array_generator');
-   // arrayGenerator.style.backgroundColor= "red";
 }
 
     // array size, speed and generator by dom
@@ -48,9 +47,9 @@ function btnfunction(){
             divs[i] = document.createElement("div");
             cont.appendChild(divs[i]);
             marginSize = 0.1;
+            divs[i].setAttribute("class", "array");
             divs[i].innerHTML = '<p class="small ">'+divSize[i]+'</p>';
-            divs[i].setAttribute("class", "d-inline-flex ml-1");
-            divs[i].style = "background-color: DarkOrange;font-size:"+ 900/arraySize +"px; color:white; width: " + (100/arraySize-(2*marginSize)) + "%; height:" + (divSize[i]) + "%";
+            divs[i].style = "background-color:DarkOrange; font-size:"+ 900/arraySize +"px; color:white; width: " + (100/arraySize-(2*marginSize)) + "%; height:" + (divSize[i]) + "%";
             
         }
 

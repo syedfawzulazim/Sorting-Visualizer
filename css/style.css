@@ -22,4 +22,17 @@
   background-color: salmon;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  p {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */

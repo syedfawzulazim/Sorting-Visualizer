@@ -31,3 +31,15 @@ $no_algos: 6;
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 768px) {
+  p {
+    transform: rotate(270deg);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    display: none;
+  }
+}

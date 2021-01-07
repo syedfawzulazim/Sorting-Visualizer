@@ -6,7 +6,7 @@ function Bubble()
     {
         for(var j=0;j<arraySize-i-1;j++)
         {
-            div_update(divs[j],divSize[j],"LightYellow");//Color update
+            div_update(divs[j],divSize[j],"yellow");//Color update
 
             if(divSize[j]>divSize[j+1])
             {
